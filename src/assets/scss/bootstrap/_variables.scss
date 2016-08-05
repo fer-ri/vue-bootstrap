@@ -1,0 +1,12 @@
+// Overrides
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$border-radius-base: 0;
+$border-radius-large: 0;
+$border-radius-small: 0;
+$brand-primary: #2B5A84;
+$font-family-sans-serif: "Lato", Helvetica, Arial, sans-serif !default;
+$font-size-base: 14px;
+$navbar-height: 65px;
+
+// Default bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
