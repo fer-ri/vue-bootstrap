@@ -12,7 +12,9 @@ module.exports = {
       'bootstrap-sass',
       'vue',
       'vue-router',
-      'vue-resource'
+      'vue-resource',
+      'vuex',
+      'vuex-router-sync'
     ]
   },
   output: {

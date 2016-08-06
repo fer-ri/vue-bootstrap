@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -19,8 +20,11 @@
     "font-awesome": "^4.6.3",
     "jquery": "^3.1.0",
     "vue": "^1.0.21",
+    "vue-head": "^1.0.7",
     "vue-resource": "^0.9.3",
-    "vue-router": "^0.7.13"
+    "vue-router": "^0.7.13",
+    "vuex": "^1.0.0-rc.2",
+    "vuex-router-sync": "^2.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

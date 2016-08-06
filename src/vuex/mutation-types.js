@@ -1,0 +1,2 @@
+export const NAVBAR_DEFAULT = 'NAVBAR_DEFAULT'
+export const NAVBAR_INVERSE = 'NAVBAR_INVERSE'
